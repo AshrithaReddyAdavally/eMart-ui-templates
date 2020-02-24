@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+  
+</head>
+<style>
+.height {
+    min-height: 200px;
+}
+
+.icon {
+    font-size: 47px;
+    color: #5CB85C;
+}
+
+.iconbig {
+    font-size: 77px;
+    color: #5CB85C;
+}
+
+.table > tbody > tr > .emptyrow {
+    border-top: none;
+}
+
+.table > thead > tr > .emptyrow {
+    border-bottom: none;
+}
+
+.table > tbody > tr > .highrow {
+    border-top: 3px solid;
+}
+
+</style>
+  <body>
+ <nav class="navbar navbar-expand-sm bg-dark navbar-light">
+
+  <ul class="navbar-nav ml-auto">
+  <button class="navbar-toggler bg-light" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="collapsibleNavbar">
+    <li class="nav-item">
+      <a class="nav-link text-white" href="eMartProductList.html">Menu</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link text-white" href="Login.html">Logout</a>
+    </li>
+	
+
+    </div>
+  </ul>
+</nav>
+<div class="container">
+<div class="d-flex justify-content-center">
+<div class=" mt-2 fixed-center">
+<ul class="pagination pagination-lg">
+<li class="page-item"><a class="page-link" href="Addcart.html">Add Items</a></li>
+<li class="page-item"><a class="page-link" href="#">Reports</a></li>
+<li class="page-item"><a class="page-link" href="#">Stock</a></li>
+</ul></div>
+
+
+</div>
+<div class="row">
+
+<div class="col">
+</div>
+<div class="col-6">
+<div class="card">
+<div class="card-header">ADD ITEMS
+</div>
+<div class="card-body">
+<form action="">
+<div class="Form-group">
+
+<label for="id">Select Category</label>
+<select class="browser-default custom-select">
+<option selected>Options</option>
+<option value="1">Electronics</option>
+<option value="2">Kitchen Appliances</option>
+<option value="3">Furniture</option>
+</select>
+</div>
+<div class="Form-group">
+<label for="id">Select Sub Category</label>
+<select class="browser-default custom-select">
+<option selected>Options</option>
+<option value="1">Mobiles</option>
+<option value="2">Kitchen Appliances</option>
+<option value="3">Furniture</option>
+</select>
+</div>
+<div class="Form-group">
+<label for="itemname">Item Name</label>
+<input type="text" class="form-control" id="itemname" name="itemname"/>
+</div>
+<div class="Form-group">
+
+<label for="stock">Stock</label>
+<input type="text" class="form-control" id="stock" name="stock"/>
+</div>
+<div class="Form-group">
+
+<label for="username">No.Of Stock Items</label>
+<input type="text" class="form-control" id="noofstockitems" name="noofstockitems"/>
+</div>
+
+<a href="eMartProductList.html" class="btn btn-success my-3 float-right">Add Item</a>
+</form>
+</div>
+</div>
+</div>
+<div class="col">
+
+</div>
+</div>
+
+</div>
+
+
+<div class="card-footer bg-dark text-center text-white">
+ <i class="material-icons" style="font-size: 25px;">copyright</i>Copyright 2020
+ </div>
+
+</footer>
+</body>
+</html>

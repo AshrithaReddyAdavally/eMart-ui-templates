@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+ 
+</head>
+<style>
+.card-width{
+width: 220px;
+}
+.img-size{
+height: 200px;
+</style>
+<body>
+<nav class="navbar navbar-expand-sm bg-dark navbar-light">
+<a class="navbar-brand ml-0 text-white" href="#">eMart</a>
+
+
+  <ul class="navbar-nav ml-auto">
+  <button class="navbar-toggler bg-light" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  
+  <div class="collapse navbar-collapse float-right" id="collapsibleNavbar">
+	<li class="nav-item">
+     
+	   <a class="btn btn-success btn-sm ml-3" href="Addcart.html">
+                    <i class="fa fa-shopping-cart"></i> Cart
+                    <span class="badge badge-light">3</span>
+                </a>
+    </li>
+    <li class="nav-item">
+       <li class="nav-item">
+      <a class="nav-link text-white" href="Login.html">Logout</a>
+    </li>
+    </li>
+	
+    </div>
+  </ul>
+  				
+   
+</nav>
+<div class="container">
+
+  <h2>Purchase History</h2>
+  
+  <div class="panel-group" id="accordion">
+    <div class="panel panel-default">
+      <div class="panel-heading">
+        <h4 class="panel-title">
+          <a data-toggle="collapse" data-parent="#accordion" href="#collapse1">Date:02/06/2020</a>
+        </h4>
+      </div>
+      <div id="collapse1" class="panel-collapse collapse in">
+	  <div class="container-fluid">
+         <div class="row">
+                <div class="text-center">
+                    <h1>View Bill</h1>
+                </div>
+                </span>
+                <table class="table table-hover">
+                    <thead>
+                        <tr>
+                            <th>Product</th>
+                            <th>Quantity</th>
+                            <th class="text-center">Price</th>
+                            <th class="text-center">Total</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="col-md-9"><em>iphone XR</em></h4></td>
+                            <td class="col-md-1" style="text-align: center"> 1 </td>
+                            <td class="col-md-1 text-center">Rs:60,000.00</td>
+                            <td class="col-md-1 text-center">Rs:60,000.00</td>
+                        </tr>
+                        <tr>
+                            <td class="col-md-9"><em>Jeans</em></h4></td>
+                            <td class="col-md-1" style="text-align: center"> 1 </td>
+                            <td class="col-md-1 text-center">Rs:1,500.00</td>
+                            <td class="col-md-1 text-center">Rs:1,500.00</td>
+                        </tr>
+						<tr>
+                            <td class="col-md-9"><em>Shoes</em></h4></td>
+                            <td class="col-md-1" style="text-align: center"> 1 </td>
+                            <td class="col-md-1 text-center">Rs:5,000.00</td>
+                            <td class="col-md-1 text-center">Rs:5,000.00</td>
+                        </tr>
+                        <tr>
+                            <td>   </td>
+                            <td>   </td>
+                            <td class="text-right">
+                            <p>
+                                <strong>Subtotal</strong>
+                            </p>
+                            <p>
+                                <strong>Tax</strong>
+                            </p></td>
+                            <td class="text-center">
+                            <p>
+                                <strong>Rs:65,000.00</strong>
+                            </p>
+                            <p>
+                                <strong>Rs:100.00</strong>
+                            </p></td>
+                        </tr>
+                        <tr>
+                            <td>   </td>
+                            <td>   </td>
+                            <td class="text-right"><h5><strong>Total</strong></h5></td>
+                            <td class="text-center"><h5><strong>Rs:66,600</strong></h5></td>
+                        </tr>
+                    </tbody>
+                </table>
+               
+            </div>
+        </div>
+    
+    </div>   </div>
+    <div class="panel panel-default">
+      <div class="panel-heading">
+        <h4 class="panel-title">
+          <a data-toggle="collapse" data-parent="#accordion" href="#collapse2">Date:01-01-2020</a>
+        </h4>
+      </div>
+      <div id="collapse2" class="panel-collapse collapse">
+	   <div class="container-fluid">
+         <div class="row">
+                <div class="text-center">
+                    <h1>View Bill</h1>
+                </div>
+                </span>
+                <table class="table table-hover">
+                    <thead>
+                        <tr>
+                            <th>Product</th>
+                            <th>Quantity</th>
+                            <th class="text-center">Price</th>
+                            <th class="text-center">Total</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="col-md-9"><em>Flipflops</em></h4></td>
+                            <td class="col-md-1" style="text-align: center"> 1 </td>
+                            <td class="col-md-1 text-center">Rs:1,000.00</td>
+                            <td class="col-md-1 text-center">Rs:1,000.00</td>
+                        </tr>
+                        <tr>
+                            <td class="col-md-9"><em>Samsung</em></h4></td>
+                            <td class="col-md-1" style="text-align: center"> 1 </td>
+                            <td class="col-md-1 text-center">Rs:20,000.00</td>
+                            <td class="col-md-1 text-center">Rs:20,000.00</td>
+                        </tr>
+                        <tr>
+                            <td>   </td>
+                            <td>   </td>
+                            <td class="text-right">
+                            <p>
+                                <strong>Subtotal</strong>
+                            </p>
+                            <p>
+                                <strong>Tax</strong>
+                            </p></td>
+                            <td class="text-center">
+                            <p>
+                                <strong>Rs:20,000.00</strong>
+                            </p>
+                            <p>
+                                <strong>Rs:100.00</strong>
+                            </p></td>
+                        </tr>
+                        <tr>
+                            <td>   </td>
+                            <td>   </td>
+                            <td class="text-right"><h5><strong>Total</strong></h5></td>
+                            <td class="text-center"><h5><strong>Rs:21,100</strong></h5></td>
+                        </tr>
+                    </tbody>
+                </table>
+               
+            </div>
+        </div>
+		</div></div>
+    <div class="panel panel-default">
+      <div class="panel-heading">
+        <h4 class="panel-title">
+          <a data-toggle="collapse" data-parent="#accordion" href="#collapse3">Date:20-01-2020</a>
+        </h4>
+      </div>
+      <div id="collapse3" class="panel-collapse collapse">
+         <div class="container-fluid">
+         <div class="row">
+                <div class="text-center">
+                    <h1>View Bill</h1>
+                </div>
+                </span>
+                <table class="table table-hover">
+                    <thead>
+                        <tr>
+                            <th>Product</th>
+                            <th>Quantity</th>
+                            <th class="text-center">Price</th>
+                            <th class="text-center">Total</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="col-md-9"><em>LG TV </em></h4></td>
+                            <td class="col-md-1" style="text-align: center"> 1 </td>
+                            <td class="col-md-1 text-center">Rs:30,000.00</td>
+                            <td class="col-md-1 text-center">Rs:30,000.00</td>
+                        </tr>
+                        <tr>
+                            <td class="col-md-9"><em>Dreess</em></h4></td>
+                            <td class="col-md-1" style="text-align: center"> 1 </td>
+                            <td class="col-md-1 text-center">Rs:8,000.00</td>
+                            <td class="col-md-1 text-center">Rs:8,000.00</td>
+                        </tr>
+                        <tr>
+                            <td>   </td>
+                            <td>   </td>
+                            <td class="text-right">
+                            <p>
+                                <strong>Subtotal</strong>
+                            </p>
+                            <p>
+                                <strong>Tax</strong>
+                            </p></td>
+                            <td class="text-center">
+                            <p>
+                                <strong>Rs:38,000.00</strong>
+                            </p>
+                            <p>
+                                <strong>Rs:100.00</strong>
+                            </p></td>
+                        </tr>
+                        <tr>
+                            <td>   </td>
+                            <td>   </td>
+                            <td class="text-right"><h5><strong>Total</strong></h5></td>
+                            <td class="text-center"><h5><strong>Rs:38,900.00</strong></h5></td>
+                        </tr>
+                    </tbody>
+                </table>
+               
+            </div>
+        </div>
+		</div></div>
+      </div>
+    </div>
+  </div> 
+</div>
+<div class="card-footer bg-dark text-center text-white fixed-bottom">
+ <i class="material-icons" style="font-size: 25px;">copyright</i>Copyright 2020
+ </div>    
+</body>
+</html>
